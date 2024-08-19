@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "plain";
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(135deg,blue,green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    align-items: center;
+    color: white;
+    padding-bottom: 70px;
+}
+a{
+    height: 50px;
+    margin-top: 13px;
+    width: 350px;
+    background: white;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}

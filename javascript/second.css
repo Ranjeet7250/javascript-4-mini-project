@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #212121;
+
+}
+
+.container{
+    height: 10vh;
+    width: 35%;
+    background-color: rgb(205, 244, 88);
+}
+form{
+    background-color: rgb(205, 244, 88);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+button{
+    height:30px;
+    width: 100px;
+    margin: 15px;
+    border-radius: 20px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="forth.css">
+</head>
+<body>
+    <div id="main">
+        <h1>Number guessing game</h1>
+        <p>Try a guess a random number 1 to 100</p>
+        <p>You have 10 attempt to guess the right number</p>
+        <br>
+        <form>
+            <label for="guess-field" id="guess">guess the number</label>
+            <input type="text" id="guess-field" class="guess-field">
+            <input type="submit" id="subt" value="submit-guess" class="guess-submit">
+        </form>
+        <div class="resultParas">
+            <p>Previous guesses <span class="guesses"></span></p>
+            <p>Previous Remaining<span class="last-result">10</span></p>
+            <p class="lowerhi"></p>
+        </div>
+    </div>
+</body>
+<script src="forth.js"></script>
+</html>
